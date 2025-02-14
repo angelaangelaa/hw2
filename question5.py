@@ -10,7 +10,6 @@ exam_data = {
 labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
 
 df = pd.DataFrame(exam_data, index=labels)
-print(df)
 
 filtered_df = df[df['attempts'] > 2]
 print("Number of attempts in the examination is greater than 2:")
